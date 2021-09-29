@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "roads",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "osm_id": 699448888, "highway": "residential", "name": "Calle Iglesia" }, "geometry": { "type": "LineString", "coordinates": [ [ -84.4655927, 10.1065667 ], [ -84.4656447, 10.1066678 ], [ -84.4658628, 10.1071473 ], [ -84.4661807, 10.1076387 ], [ -84.466369, 10.1079398 ], [ -84.4664926, 10.1080816 ], [ -84.4668359, 10.108301 ], [ -84.4673548, 10.1086036 ], [ -84.4678096, 10.1088687 ], [ -84.46849, 10.1092313 ], [ -84.4687127, 10.1093842 ], [ -84.46881, 10.1095645 ], [ -84.4688922, 10.1098416 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 117058971, "highway": "residential", "name": null }, "geometry": { "type": "LineString", "coordinates": [ [ -84.4662176, 10.108556 ], [ -84.4662638, 10.1084909 ], [ -84.4663221, 10.1084087 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 117059024, "highway": "residential", "name": null }, "geometry": { "type": "LineString", "coordinates": [ [ -84.4673548, 10.1086036 ], [ -84.4670732, 10.1090665 ], [ -84.4667307, 10.1096296 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 117058986, "highway": "residential", "name": null }, "geometry": { "type": "LineString", "coordinates": [ [ -84.4671297, 10.1105105 ], [ -84.4677894, 10.110438 ], [ -84.4682928, 10.1103695 ], [ -84.4682128, 10.1095773 ], [ -84.468132, 10.1095251 ], [ -84.4677163, 10.1095623 ], [ -84.4672872, 10.1095807 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 117059008, "highway": "residential", "name": null }, "geometry": { "type": "LineString", "coordinates": [ [ -84.4674658, 10.109287 ], [ -84.4672872, 10.1095807 ], [ -84.4670727, 10.1099336 ], [ -84.467106, 10.1100761 ], [ -84.4677553, 10.1100292 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 117058997, "highway": "residential", "name": null }, "geometry": { "type": "LineString", "coordinates": [ [ -84.4666374, 10.1088064 ], [ -84.4663174, 10.1093683 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 117059016, "highway": "residential", "name": null }, "geometry": { "type": "LineString", "coordinates": [ [ -84.467051, 10.1113459 ], [ -84.4678226, 10.1106958 ], [ -84.4677894, 10.110438 ], [ -84.4677569, 10.1100488 ], [ -84.4677553, 10.1100292 ], [ -84.4677163, 10.1095623 ], [ -84.467695, 10.1094158 ], [ -84.4674658, 10.109287 ], [ -84.4670732, 10.1090665 ], [ -84.4666374, 10.1088064 ], [ -84.4662176, 10.108556 ], [ -84.4656143, 10.1094111 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 110650872, "highway": "residential", "name": "Calle Guillermo Jim" }, "geometry": { "type": "LineString", "coordinates": [ [ -84.4643502, 10.1075662 ], [ -84.464728, 10.1079968 ], [ -84.4649047, 10.1081594 ], [ -84.4652147, 10.1083665 ], [ -84.4654334, 10.1085141 ], [ -84.466369, 10.1079398 ] ] } },
+{ "type": "Feature", "properties": { "osm_id": 110680285, "highway": "residential", "name": "Calle Alpízar" }, "geometry": { "type": "LineString", "coordinates": [ [ -84.4660879, 10.1109065 ], [ -84.465683, 10.110835 ], [ -84.4640711, 10.1107372 ], [ -84.4639475, 10.1107269 ], [ -84.4631321, 10.1106952 ], [ -84.4626546, 10.1106794 ], [ -84.4616497, 10.1106229 ] ] } }
+]
+}
