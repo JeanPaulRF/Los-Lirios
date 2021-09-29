@@ -1,4 +1,4 @@
-# Digitalizacion de Residencial Los Lirios
+# Informe de digitalizacion del residencial Los Lirios
 
 ## Elementos ingresados:
 
