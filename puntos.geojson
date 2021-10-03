@@ -1,0 +1,783 @@
+{
+"type": "FeatureCollection",
+"name": "points",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [ {
+            "type": "Feature",
+            "id": "node/9130866244",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866244"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.467839,
+                    10.1107214
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866245",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866245"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4674838,
+                    10.1110148
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866246",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866246"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.468292,
+                    10.1103952
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866247",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866247"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4678128,
+                    10.1104656
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866248",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866248"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4671452,
+                    10.1105407
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866249",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866249"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4674456,
+                    10.1105032
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866250",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866250"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4677791,
+                    10.1100365
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866251",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866251"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4682369,
+                    10.1095929
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866252",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866252"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4681177,
+                    10.1095249
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866253",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866253"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4682798,
+                    10.1099943
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866254",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866254"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4671116,
+                    10.1100882
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866255",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866255"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4670615,
+                    10.1099262
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866256",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866256"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4672761,
+                    10.1095765
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866257",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866257"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4674787,
+                    10.1092807
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866258",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866258"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.46771,
+                    10.1094005
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866259",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866259"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4677148,
+                    10.1095694
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866260",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866260"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4674001,
+                    10.11006
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866261",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866261"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4670782,
+                    10.1090742
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866262",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866262"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4669161,
+                    10.1093488
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866263",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866263"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4667444,
+                    10.1096328
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866264",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866264"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.46663,
+                    10.108809
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866265",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866265"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4664798,
+                    10.1090906
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866266",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866266"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4663081,
+                    10.1093629
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866267",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866267"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.46632,
+                    10.1084123
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866268",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866268"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4662151,
+                    10.1085508
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866269",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866269"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.465631,
+                    10.1093864
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866270",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866270"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4659982,
+                    10.1088395
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130866271",
+            "properties": {
+                "timestamp": "2021-09-29T02:21:17Z",
+                "version": "1",
+                "changeset": "111842540",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Poste electrico",
+                "office": "ICE",
+                "id": "node/9130866271"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.465805,
+                    10.1091305
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9130877529",
+            "properties": {
+                "timestamp": "2021-10-01T20:21:11Z",
+                "version": "4",
+                "changeset": "111980479",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Se",
+                "office": "ICE",
+                "id": "node/9130877529"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4670943,
+                    10.1113375
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9138765348",
+            "properties": {
+                "timestamp": "2021-10-01T20:21:11Z",
+                "version": "1",
+                "changeset": "111980479",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Señal",
+                "office": "Calle sin salida",
+                "id": "node/9138765348"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4678882,
+                    10.1107074
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9138765349",
+            "properties": {
+                "timestamp": "2021-10-01T20:21:11Z",
+                "version": "1",
+                "changeset": "111980479",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Señal",
+                "office": "Calle sin salida",
+                "id": "node/9138765349"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4677496,
+                    10.1104477
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9138765350",
+            "properties": {
+                "timestamp": "2021-10-01T20:21:11Z",
+                "version": "1",
+                "changeset": "111980479",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Señal",
+                "office": "Calle sin salida",
+                "id": "node/9138765350"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4670323,
+                    10.1091051
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9138765351",
+            "properties": {
+                "timestamp": "2021-10-01T20:21:11Z",
+                "version": "1",
+                "changeset": "111980479",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Señal",
+                "office": "Calle sin salida",
+                "id": "node/9138765351"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.466584,
+                    10.108831
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9138765352",
+            "properties": {
+                "timestamp": "2021-10-01T20:21:11Z",
+                "version": "1",
+                "changeset": "111980479",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Señal",
+                "office": "Calle sin salida",
+                "id": "node/9138765352"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.466263,
+                    10.1085511
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9138808481",
+            "properties": {
+                "timestamp": "2021-10-01T20:45:44Z",
+                "version": "1",
+                "changeset": "111981212",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Hidrante",
+                "office": "AYA",
+                "id": "node/9138808481"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4678667,
+                    10.110555
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9138808482",
+            "properties": {
+                "timestamp": "2021-10-01T20:45:44Z",
+                "version": "1",
+                "changeset": "111981212",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Hidrante",
+                "office": "AYA",
+                "id": "node/9138808482"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4665032,
+                    10.1087775
+                ]
+            }
+        },
+        {
+            "type": "Feature",
+            "id": "node/9138808483",
+            "properties": {
+                "timestamp": "2021-10-01T20:45:44Z",
+                "version": "1",
+                "changeset": "111981212",
+                "user": "Tirus214",
+                "uid": "14175616",
+                "name": "Hidrante",
+                "office": "AYA",
+                "id": "node/9138808483"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -84.4677416,
+                    10.109568
+                ]
+            }
+        }
+    ]
+}

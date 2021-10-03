@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+        <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+        <title>Residencial Los Lirios</title>
+        <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+        <style>
+        body { margin: 0; padding: 0; }
+        </style>
+        <style>
+            h1 {text-align: center;}
+            p {text-align: center;}
+            div {text-align: center;}
+            </style>
+    </head>
+    <body>
+        <style>
+            .mapboxgl-popup {
+            max-width: 400px;
+            font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            }
+        </style>
+        <div id='map' style='width: 1535px; height: 630px;'></div>
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1Ijoiam14MyIsImEiOiJja3U4dDg1N2owMDd3MnVyczZ6eGVrejBrIn0.bdRyBhkl-jZwGO5A53t1Rw';
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/mapbox/streets-v11',
+                center: [-84.4673779, 10.1100157],
+                zoom: 16,
+                pitch: 35,
+
+            });
+            map.on('load', () => {
+                    map.loadImage(
+                    'https://docs.mapbox.com/mapbox-gl-js/assets/custom_marker.png',
+                    (error, image) => {
+                    if (error) throw error;
+                    map.addImage('custom-marker', image);
+                    });
+                map.addSource('puntos', {
+                type: 'geojson',
+                data: 'https://jmx3-pixel.github.io/puntos.geojson'
+                });
+            
+                map.addLayer({
+                    'id': 'puntos-layer',
+                    'type': 'symbol',
+                    'source': 'puntos',
+                    'layout': {
+                        'icon-image': 'custom-marker',
+                        'text-field':'punto',
+                        'text-font': [
+                            'Open Sans Semibold',
+                            'Arial Unicode MS Bold'
+                        ],
+                        'text-offset': [0, 1.25],
+                        'text-anchor': 'top'
+                    }
+                });
+
+                map.addSource('casas', {
+                type: 'geojson',
+                data: 'https://jmx3-pixel.github.io/buildings.geojson'
+                });
+                map.addLayer({
+                    'id': 'casas-layer',
+                    'type': 'fill-extrusion',
+                    'source': 'casas',
+                    'paint': {
+
+                        'fill-extrusion-color': 'rgba(200, 100, 240, 0.4)',
+ 
+                        // Get `fill-extrusion-height` from the source `height` property.
+                        'fill-extrusion-height': 10,
+                        
+                        // Get `fill-extrusion-base` from the source `base_height` property.
+                        'fill-extrusion-base': 0,
+
+                        'fill-extrusion-opacity': 0.5
+                    }
+                });
+                map.addSource('landcover', {
+                type: 'geojson',
+                data: 'https://jmx3-pixel.github.io/landcover.geojson'
+                });
+                map.addLayer({
+                    'id': 'landcover-layer',
+                    'type': 'fill',
+                    'source': 'landcover',
+                    'paint': {
+                        'fill-color': 'rgba(63, 176, 83, 0.1)',
+                        'fill-outline-color': 'rgba(63, 176, 83, 1)'
+                    }
+                });
+                map.addSource('cables', {
+                type: 'geojson',
+                data: 'https://jmx3-pixel.github.io/power_lines.geojson'
+                });
+                map.addLayer({
+                    'id': 'power_lines-layer',
+                    'type': 'line',
+                    'source': 'cables',
+                    'layout': {
+                    'line-join': 'round',
+                    'line-cap': 'round'
+                    },
+                    'paint': {
+                    'line-color': '#888',
+                    'line-width': 2.8
+                    }
+                });
+                map.on('click', 'casas-layer', (e) => {
+                new mapboxgl.Popup()
+.               setLngLat(e.lngLat)
+.               setHTML("Casa " + e.features[0].properties.name)
+                
+.               addTo(map);
+                });
+                map.on('mouseenter', 'landcover-layer', () => {
+                map.getCanvas().style.cursor = 'pointer';
+                });
+ 
+
+                map.on('mouseleave', 'landcover-layer', () => {
+                map.getCanvas().style.cursor = '';
+                });
+                map.on('click', 'landcover-layer', (e) => {
+                new mapboxgl.Popup()
+.               setLngLat(e.lngLat)
+.               setHTML(e.features[0].properties.residential + ' ' + e.features[0].properties.name)
+                
+.               addTo(map);
+                });
+ 
+
+                map.on('mouseenter', 'casas-layer', () => {
+                map.getCanvas().style.cursor = 'pointer';
+                });
+ 
+
+                map.on('mouseleave', 'casas-layer', () => {
+                map.getCanvas().style.cursor = '';
+
+                });
+
+                map.on('mouseenter', 'power_lines-layer', () => {
+                map.getCanvas().style.cursor = 'pointer';
+                });
+ 
+
+                map.on('mouseleave', 'power_lines-layer', () => {
+                map.getCanvas().style.cursor = '';
+                });
+                map.on('click', 'power_lines-layer', (e) => {
+                new mapboxgl.Popup()
+.               setLngLat(e.lngLat)
+.               setHTML(e.features[0].properties.name + " del " + e.features[0].properties.operator)
+                
+.               addTo(map);
+                });
+                map.on('click', 'puntos-layer', (e) => {
+// Copy coordinates array.
+                    const coordinates = e.features[0].geometry.coordinates.slice();
+                    const description = e.features[0].properties.name;
+                    
+                    // Ensure that if the map is zoomed out such that multiple
+                    // copies of the feature are visible, the popup appears
+                    // over the copy being pointed to.
+                    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+                    coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+                    }
+                    
+                    new mapboxgl.Popup()
+                    .setLngLat(coordinates)
+                    .setHTML(description + " de " + e.features[0].properties.office)
+                    .addTo(map);
+                    });
+                    
+                    // Change the cursor to a pointer when the mouse is over the places layer.
+                    map.on('mouseenter', 'puntos-layer', () => {
+                    map.getCanvas().style.cursor = 'pointer';
+                    });
+                    
+                    // Change it back to a pointer when it leaves.
+                    map.on('mouseleave', 'puntos-layer', () => {
+                    map.getCanvas().style.cursor = '';
+                    });
+                /*map.on('mouseenter', 'puntos-layer', () => {
+                map.getCanvas().style.cursor = 'pointer';
+                });
+ 
+
+                map.on('mouseleave', 'puntos-layer, () => {
+                map.getCanvas().style.cursor = '';
+                });
+                map.on('click', 'puntos-layer', (e) => {
+                new mapboxgl.Popup()
+.               setLngLat(e.lngLat)
+.               setHTML(e.features[0].properties.name)
+                
+.               addTo(map);
+                });*/
+            });
+        </script>
+        <h1>Proyecto 1 Residencial Los Lirios</h1>
+    </body>
+</html>
